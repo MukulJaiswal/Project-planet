@@ -1,0 +1,28 @@
+body
+{
+background-image:url("m2.jpg")
+}
+.style
+{
+	
+	color:white;
+}
+.footer
+{
+	
+	text-align:center;
+	color:white;
+	
+}
+.fbox
+{
+	 text-align:center;
+	 color:white;
+}
+.fbox span
+{
+	font-size:60px;
+	color:#148D73;
+}
+
+}

@@ -1,0 +1,130 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>SIGN UP</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/theme.css" rel="stylesheet">
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+</head>
+<script>
+            function valid(){
+                var pass1 = document.getElementById("pass1");
+                var pass2 = document.getElementById("pass2");
+                if(pass1.value==pass2.value)
+                    return true;
+                else{
+                    alert("Password Doesn't MATCH....!!!");
+                return false;
+            }
+            }
+        </script>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<div class="container"  >
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+		<i class="fa fa-bars"></i>
+		</button>
+		<a class="navbar-brand page-scroll" href="index.html">
+		</a>
+	</div>
+	<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+		<ul class="nav navbar-nav">
+			<li>
+			<a href="main.html">Home</a>
+			</li>
+			
+		</ul>
+	</div>
+</div>
+</nav>
+<body>
+<div class="container">
+
+<div class="row">
+
+<div class="navbar navbar-default navbar-inverse navbar-fixed-top">
+		<div class="container">
+
+			<h1 style="color: white; text-align: center;  margin-top: 20px;" >SIGNUP</h1>
+		</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+		<form role="form" action="connect.php" method="post" onsubmit="return valid()">
+			<h2> <small style="margin-left:100px; ">It's free and always will be.</small></h2>
+			<hr class="colorgraph">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+                        <input type="text" name="name" id="var1" class="form-control input-lg" placeholder="Name" tabindex="1">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="text" name="gender" id="var2" class="form-control input-lg" placeholder="Gender" tabindex="2">
+					</div>
+				</div>
+	
+			<div class="col-xs-12 col-sm-6 col-md-6">
+			<div class="form-group">
+				<input type="number" name="contact" id="var3" class="form-control input-lg" placeholder="Contact No." tabindex="4">
+			</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6">
+			<div class="form-group">
+				<input type="email" name="email" id="var4" class="form-control input-lg" placeholder="Email Address" tabindex="4">
+			</div>
+			</div>
+			
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="password" name="password" id="pass1" class="form-control input-lg" placeholder="Password" tabindex="5">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="form-group">
+						<input type="password" name="password_confirmation" id="pass2" class="form-control input-lg" placeholder="Confirm Password" tabindex="6">
+					</div>
+				</div>
+			<div class="col-xs-12 col-sm-6 col-md-6" style="margin-left:150px;">
+					<div class="form-group">
+						<input type="text" name="user_type" id="var5" class="form-control input-lg" placeholder="User Type" tabindex="6">
+					</div>
+				</div>
+			<div class="row">
+				
+				<div class="col-xs-12 col-sm-6 col-md-6"  style="margin-left:150px;"><center>
+					 By clicking <strong class="label label-primary">Register</strong>, you agree to the <a href="#" data-toggle="modal" data-target="#t_and_c_m">Terms and Conditions</a> set out by this site, including our Cookie Use.
+				</center></div>
+			</div>
+			
+			<hr class="colorgraph">
+			<div class="row">
+				<div class="col-xs-12 col-md-6"><input type="submit" value="Register" class="btn btn-primary btn-block btn-lg" tabindex="7"></div>
+				<div class="col-xs-12 col-md-6"><a href="
+
+				login.html" class="btn btn-success btn-block btn-lg">Login</a></div>
+			</div>
+		</form>
+	</div>
+</div>
+
+ <footer style="text-align:center;">
+ Copyright © Project Era. All rights reserved.
+</footer>
+<script src="js/signup.js"></script>
+</body>
+</html>

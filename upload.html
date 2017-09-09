@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Upload</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-image: url(m3.jpg);">
+	<div id="content">
+	<form method="post" action ="upl.php" enctype="multipart/form-data">
+	<input type="hidden" name="size" value="1000000">
+	<div>
+		<p><b>Topic</b></p>
+		<input type="text"  name="name" size="40">
+		<br>
+		<br>
+
+		<b>Category</b>
+		<br> 
+		<br>
+		<select name="category"><br><br>
+			<option>Artificial Intelligence</option>
+			<option>Robotics</option>
+			<option>Web Designing</option>
+			<option>Game</option>
+			<option>Others</option>
+		</select>
+	<div>
+	<p><b>Content</b></p>
+		<textarea name="topic" cols="40" rows="6" placeholder="Say something about this Project..">			
+		</textarea>
+	</div>
+		<input type="submit" name="submit" value="submit">
+	</div>
+	</form>
+	</div>
+
+
+</body>
+</html>
