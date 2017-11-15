@@ -1,6 +1,6 @@
-# hackathon
+# PROJECT PLANET -Website
 
-                                                      PROJECT ERA
+                                                      PROJECT PLANET
                                                       
 This is the website build by me ,where person from all over the world can share and upload thoughts/ideas related to college projects .It is the common platform for the youngsters who are enthusiast about the new invention and technologies.They can collaborate and share thoughts with the matching personalities present here.
 
