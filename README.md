@@ -15,4 +15,6 @@ Structure
             ├── index.php        # Contains the coding of front End.
             ├── style.css        # Stylesheet for front end.
          
-Website:-  https://projectera.000webhostapp.com
+Website:-  http://projectplanet.tech/  
+
+Alternate Link :-https://projectera.000webhostapp.com/
